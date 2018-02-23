@@ -1,3 +1,7 @@
+# Vanilla UJS as Javascript modules
+
+TODO: write stuff here, remove rails stuff
+
 # Vanilla UJS
 [![Build Status][travis-img]][travis-link][![Dependency Status](https://gemnasium.com/hauleth/vanilla-ujs.svg)](https://gemnasium.com/hauleth/vanilla-ujs)
 

@@ -1,38 +1,31 @@
 {
-  "name": "vanilla-ujs",
-  "version": "1.3.0",
-  "description": "Rails UJS in VanillaJS",
-  "main": "lib/assets/javascripts/vanilla-ujs.js",
+  "name": "module-ujs",
+  "version": "0.1.0",
+  "description": "Rails UJS as JS Modules",
+  "main": "ujs.js",
   "scripts": {
-    "build": "npm install && grunt dist",
-    "test": "grunt test",
-    "webtest": "grunt webtest"
+    "build": "#TODO",
+    "test": "#TODO",
+    "webtest": "#TODO"
   },
   "devDependencies": {
-    "body-parser": "*",
-    "express": "~4.13.0",
-    "grunt": "^0.4.5",
-    "grunt-contrib-concat": "*",
-    "grunt-contrib-jshint": "*",
-    "grunt-contrib-uglify": "*",
-    "grunt-contrib-watch": "*",
-    "grunt-express": "*",
-    "grunt-mocha": "*",
-    "grunt-parallel": "^0.4.1"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/hauleth/vanilla-ujs.git"
+    "url": "https://github.com/sakamies/vanilla-ujs"
   },
   "keywords": [
-    "ujs",
+    "es6",
+    "javascript"
+    "module",
     "rails",
-    "vanilla"
+    "vanilla",
+    "ujs",
   ],
-  "author": "Łukasz Niemier",
+  "author": "Ville Vanninen",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hauleth/vanilla-ujs/issues"
+    "url": "https://github.com/sakamies/vanilla-ujs/issues"
   },
-  "homepage": "https://github.com/hauleth/vanilla-ujs"
+  "homepage": "https://github.com/sakamies/vanilla-ujs"
 }
