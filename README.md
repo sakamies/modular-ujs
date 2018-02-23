@@ -2,6 +2,9 @@
 
 Requires support for [element.matches](https://developer.mozilla.org/en/docs/Web/API/Element/matches) & [CustomEvent](https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent). I didn't want to include polyfills because I think every npm module should not include its own polyfills, that will bloat projects. Polyfill as needed.
 
+# TODO
+
+- Add something to run the tests with
 
 
 Original readme below.
