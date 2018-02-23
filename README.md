@@ -7,30 +7,38 @@ Requires support for [element.matches](https://developer.mozilla.org/en/docs/Web
 # TODO
 
 - Add back something to run the tests with
+- Do this: https://codeburst.io/how-to-create-and-publish-your-first-node-js-module-444e7585b738
 
 
 
 ## Install
 
-TODO: publish npm module
-TODO: add webpack & babel so you can build this
+`npm install modular-ujs`
 
 
 
 ## Contribute
 
-1. Clone repo
+Clone repo
 
-        $ git clone https://github.com/sakamies/modular-ujs
-        $ cd modular-js/
+```
+$ git clone https://github.com/sakamies/modular-ujs
+$ cd modular-js/
+```
 
-2. Install dependencies
+Install dependencies
 
-        $ npm install
+```
+$ npm install
+```
 
-3. Run tests
+TODO: add webpack & babel so you can build this
 
-        $ TODO: grunt test
+Run tests
+
+```
+$ npm run test
+```
 
 ## Thanks to the original authors of Vanilla UJS
 
