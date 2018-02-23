@@ -1,4 +1,6 @@
-export default function confirmOnClick () {
+export default ClickConfirm
+
+function ClickConfirm () {
   document.addEventListener('click', function (event) {
     var message, element;
 

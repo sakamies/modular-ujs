@@ -1,7 +1,6 @@
-import CSRF from './csrf.js'
-import LiteAjax from './liteajax.js'
+export default ClickMethod
 
-export default function method () {
+function ClickMethod () {
   document.addEventListener('click', function(event) {
     var element, url, method, data, handler;
 

@@ -1,4 +1,6 @@
-export default function disable () {
+export default ClickDisable
+
+function ClickDisable () {
   document.addEventListener('click', function (event) {
     var message, element;
 
