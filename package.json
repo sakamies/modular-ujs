@@ -1,6 +1,6 @@
 {
-  "name": "module-ujs",
-  "version": "0.1.0",
+  "name": "modular-ujs",
+  "version": "2.0.0",
   "description": "Rails UJS as JS Modules",
   "main": "ujs.js",
   "scripts": {
