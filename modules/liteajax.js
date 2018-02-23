@@ -1,5 +1,3 @@
-export default LiteAjax
-
 var LiteAjax = (function () {
   var LiteAjax = {};
 
@@ -70,3 +68,5 @@ var LiteAjax = (function () {
 
   return LiteAjax;
 })();
+
+export default LiteAjax

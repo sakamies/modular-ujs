@@ -1,5 +1,3 @@
-export default ClickMethod
-
 function ClickMethod () {
   document.addEventListener('click', function(event) {
     var element, url, method, data, handler;
@@ -74,3 +72,5 @@ function ClickMethod () {
     }
   }, false);
 }
+
+export default ClickMethod

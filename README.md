@@ -4,7 +4,7 @@ Requires support for [element.matches](https://developer.mozilla.org/en/docs/Web
 
 # TODO
 
-- Add something to run the tests with
+- Add back something to run the tests with
 
 
 Original readme below.

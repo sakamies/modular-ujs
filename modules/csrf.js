@@ -1,5 +1,3 @@
-export default CSRF
-
 var CSRF = {
   token: function () {
     var token = document.querySelector('meta[name="csrf-token"]');
@@ -50,3 +48,5 @@ document.addEventListener('submit', function (e) {
     return true;
   }
 });
+
+export default CSRF

@@ -1,5 +1,3 @@
-export default ClickConfirm
-
 function ClickConfirm () {
   document.addEventListener('click', function (event) {
     var message, element;
@@ -20,3 +18,4 @@ function ClickConfirm () {
   }, false);
 }
 
+export default ClickConfirm

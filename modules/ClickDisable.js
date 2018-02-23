@@ -1,5 +1,3 @@
-export default ClickDisable
-
 function ClickDisable () {
   document.addEventListener('click', function (event) {
     var message, element;
@@ -33,3 +31,5 @@ function ClickDisable () {
     }
   }, false);
 }
+
+export default ClickDisable

@@ -1,6 +1,4 @@
-export default AjaxForms
-
-function AjaxForms () {
+function AjaxForm () {
   document.addEventListener('submit', function(event) {
 
     var form = event.target;
@@ -46,3 +44,5 @@ function formHasNoInputs (form) {
 
   return true;
 }
+
+export default AjaxForm
