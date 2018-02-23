@@ -1,6 +1,10 @@
 # Vanilla UJS as Javascript modules
 
-TODO: write stuff here, remove rails stuff
+Requires support for [element.matches](https://developer.mozilla.org/en/docs/Web/API/Element/matches) & [CustomEvent](https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent). I didn't want to include polyfills because I think every npm module should not include its own polyfills, that will bloat projects. Polyfill as needed.
+
+
+
+Original readme below.
 
 # Vanilla UJS
 [![Build Status][travis-img]][travis-link][![Dependency Status](https://gemnasium.com/hauleth/vanilla-ujs.svg)](https://gemnasium.com/hauleth/vanilla-ujs)
