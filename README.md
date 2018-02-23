@@ -13,6 +13,7 @@ Requires support for [element.matches](https://developer.mozilla.org/en/docs/Web
 ## Install
 
 TODO: publish npm module
+TODO: add webpack & babel so you can build this
 
 
 

@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sakamies/vanilla-ujs"
+    "url": "https://github.com/sakamies/modular-ujs"
   },
   "keywords": [
     "es6",
@@ -25,7 +25,7 @@
   "author": "Ville Vanninen",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sakamies/vanilla-ujs/issues"
+    "url": "https://github.com/sakamies/modular-ujs/issues"
   },
-  "homepage": "https://github.com/sakamies/vanilla-ujs"
+  "homepage": "https://github.com/sakamies/modular-ujs"
 }
