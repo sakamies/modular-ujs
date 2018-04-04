@@ -13,7 +13,7 @@ function ClickDisable () {
     // since failed validations prevent the form from being submitted, we would lock the form permanently
     // by disabling the submit button even though the form was never submitted
 
-    if(element.getAttribute("type") === "submit" && element.form.querySelector(":invalid") !== null) {
+    if(element.getAttribute("type") === "submit" && (element.form && element.form.querySelector(":invalid") !== null)) {
       return;
     }
 
