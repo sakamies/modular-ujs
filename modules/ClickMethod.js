@@ -14,11 +14,12 @@ function ClickMethod () {
       return
     }
 
-    method = element.getAttribute('data-method') || methodFromUrl(url);
+    method = element.getAttribute('data-method') || getMethod(element);
 
-    function methodFromUrl (url) {
-      url = new URL(url);
-      return url.searchParams.get("method");
+    function getMethod (el) {
+      const url = new URL(el);
+      const method = url.searchParams.get("method");
+      return method;
     }
 
     if (method) {
