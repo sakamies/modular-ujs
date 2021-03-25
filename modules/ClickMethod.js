@@ -9,9 +9,20 @@ function ClickMethod () {
 
     element = event.target;
 
-    if (element.matches('a[data-method]')) {
-      url = element.getAttribute('href');
-      method = element.getAttribute('data-method').toUpperCase();
+    url = element.getAttribute('href');
+    if (!url) {
+      return
+    }
+
+    method = element.getAttribute('data-method') || methodFromUrl(url);
+
+    function methodFromUrl (url) {
+      url = new URL(url);
+      return url.searchParams.get("method");
+    }
+
+    if (method) {
+      method = method.toUpperCase();
       data = {};
 
       if (CSRF.param() && CSRF.token()) {
